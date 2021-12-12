@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "shared"
-    s.version      = "0.1.1"
+    s.version      = "0.1.2"
     s.summary      = "KMM ios library"
     s.description  = <<-DESC
     KMM ios library"
@@ -18,5 +18,5 @@ Pod::Spec.new do |s|
     s.vendored_frameworks = "shared.framework"
     s.platform = :ios
     s.swift_version = "5.0"
-    s.ios.deployment_target  = '12.0'
+    s.ios.deployment_target  = '9.0'
 end
